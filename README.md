@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Sidney Bakker
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive
  
 </details>
 
@@ -57,6 +57,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  koplink: logo nu.nl is niet logisch op de home pagina
+
+geen zichtbare H1
+
+koplinken in de tekst bij bepaalde woorden die normaal naar een ander artikel verwijzen klinken nogal verwarrend
+
+iconen worden gezien als afbeeldingen en zitten vast aan de voorgaande paragraaf ook al horen ze daar niet bij
+
+
+onderaan het artikel bij "Eerder" is er een lijst met eerdere artikelen waarin eerst de datum wordt genoemd de naam van de artikel en vervolgens weer dezelfde datum dit hoor je niet als je de tekst via een koplink opzoekt
+
 
 </details>
 
@@ -68,13 +79,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/BreakdownHome.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/Dynamisch1.png" width="375px" alt="breakdown van uitklapbare menu van meer onderwerpen">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/Dynamisch2.jpg" width="375px" alt="breakdown van het activeren van de zoekbar">
 
 </details>
 
