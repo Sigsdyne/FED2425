@@ -46,7 +46,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    https://www.nu.nl/
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="./readme-images/NuNieuwsbericht" width="375px" alt="Een nieuwsberichtpagina van Nu.nl">
+  <img src="./readme-images/NuNieuwsbericht.png" width="375px" alt="Een nieuwsberichtpagina van Nu.nl">
     https://www.nu.nl/tech/6328731/nintendo-klaagt-maker-van-pokemon-met-pistolen-aan-om-kopieergedrag.html
 </details>
 
@@ -87,7 +87,7 @@ onderaan het artikel bij "Eerder" is er een lijst met eerdere artikelen waarin e
   <img src="./readme-images/Dynamisch1.png" width="375px" alt="breakdown van uitklapbare menu van meer onderwerpen">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="./readme-images/Dynamisch2.jpg" width="375px" alt="breakdown van het activeren van de zoekbar">
+  <img src="./readme-images/Dynamisch2.png" width="375px" alt="breakdown van het activeren van de zoekbar">
 
 </details>
 
