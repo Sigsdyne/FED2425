@@ -40,10 +40,10 @@
 /****************/
 
 /* jouw code */
-main{
+/* main{
 	display:grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 16em), 1fr));
-}
+} */
 section{
 	justify-content: center;
 }
@@ -106,16 +106,19 @@ header nav li{
 
 .Topnieuws{
 	display:block;
-	color:rgb(255, 0, 0);
-	/* position: absolute; */
+	color:var(--color-NuWit);
+	text-shadow: 0 2px 8px rgb(0, 0, 0, .6);
+	position: relative;
 	font-size: 1.125rem;
 	font-weight: 700;
 }
 
-.AlgemeenNieuws li:first-child h3{
+.Topnieuws h3{
+	position: absolute;
 	font-size: 1.125rem;
 	font-weight: 700;
-	bottom: 3em;
+	bottom: 0.5em;
+	padding: 0em 1em;
 }	
 
 .AlgemeenNieuws ul li a{
@@ -140,8 +143,8 @@ header nav li{
 }
 
 .Video h2{
-	position: relative;
-	bottom: 20em;
+	flex-basis: 100%;
+	padding: 0em 0.5em;
 }
 
 .Video article{
