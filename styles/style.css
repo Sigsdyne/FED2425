@@ -18,7 +18,17 @@
 	--color-text:#111;
 	--color-background:#eee;
 	font-family: Arial, Helvetica, sans-serif;
-	font-style: unset;
+	--color-NuOranje:rgb(232 131 39);
+	--color-NuBlauw:rgb(2 0 81);
+	--color-NuRood:rgb(194 1 1);
+	--color-NuLichtBlauw:rgb(0 108 224);
+	--color-NuPaars:rgb(81 0 173);
+	--color-NuRoze:rgb(197 17 125);
+	--color-NuTeal:rgb(42 146 155);
+	--color-NuWit:rgb(255 255 255);
+
+
+
 }
 
 
@@ -30,4 +40,121 @@
 /****************/
 
 /* jouw code */
+section{
+	justify-content: center;
+}
 
+h3{
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+
+header{
+	background-color: var(--color-NuWit);
+	position: sticky;
+	top:0;
+	z-index: 10;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+header nav ul{
+	display: flex;
+	flex-grow: 1;
+	gap:1em;
+}
+header nav li{
+	min-width: 6em;
+	/* tijdelijke kleur voor helderheid */
+	background-color: aqua;
+}
+
+
+.Rodebutton{
+	display: inline-block;
+	background: var(--color-NuRood);
+	color: var(--color-NuWit);
+	border-radius: 20px;
+	padding: 0.2em 0.4em;
+	font-weight: 500;
+}
+
+.AlgemeenNieuws{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+.Topnieuws{
+	display:block;
+	color:rgb(255, 0, 0);
+	position: absolute;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.AlgemeenNieuws li:first-child h3{
+	position: absolute;
+	font-size: 1.125rem;
+	font-weight: 700;
+	bottom: 3em;
+}	
+
+.AlgemeenNieuws ul li a{
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 1em;
+	padding: 0.25em 0em;
+}
+.AlgemeenNieuws .Laagnieuws img{
+	object-fit: fill;
+	max-width: 25%;
+	border-radius: 10%;
+}
+
+.Laagnieuws h3{
+   max-width: 80%;
+}
+
+.Video{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Video h2{
+	position: absolute;
+	bottom: 20em;
+}
+
+.Video article{
+	display: flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+	flex-basis: 50%;
+	padding: 1em;
+}
+
+.Video img{
+	max-width: 80%;
+}
+
+.Video .Rodebutton{
+	max-width: 25%;
+	position: absolute;
+	
+}
