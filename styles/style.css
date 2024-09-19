@@ -40,6 +40,10 @@
 /****************/
 
 /* jouw code */
+main{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 16em), 1fr));
+}
 section{
 	justify-content: center;
 }
@@ -103,13 +107,12 @@ header nav li{
 .Topnieuws{
 	display:block;
 	color:rgb(255, 0, 0);
-	position: absolute;
+	/* position: absolute; */
 	font-size: 1.125rem;
 	font-weight: 700;
 }
 
 .AlgemeenNieuws li:first-child h3{
-	position: absolute;
 	font-size: 1.125rem;
 	font-weight: 700;
 	bottom: 3em;
@@ -137,7 +140,7 @@ header nav li{
 }
 
 .Video h2{
-	position: absolute;
+	position: relative;
 	bottom: 20em;
 }
 
